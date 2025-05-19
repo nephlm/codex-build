@@ -1,6 +1,9 @@
 ## Goals
 
 * A command line that can be run to build professional looking basic novels in pdf and ebook formats given a one or more Markdown documents.
+* Require as little tech knowledge as possible, however this does not mean it can be run with no tech knowledge.
+** Install the prereqs.
+** Run a python program via UV.
 * Should contain the interior book design expected in a professional novel.
 * pdf
   * headers
@@ -10,8 +13,9 @@
   * Optional higher level "books" or "parts" that contain chapters.
   * chapter headings
     * Start on odd pages  
-    * Number, title, epigraph, POV/time/other note
-  * drop caps
+    * Number, title, subtitle (may be styled as subtitle, epigraph, POV/time/other note)
+    * drop caps
+    * Small caps for first phrase
   * front matter
     * title page
     * copyright page
@@ -26,7 +30,9 @@
 * ebook
   * chapter headings
     * optional books/parts/acts higher level organizations
-  * drop caps
+    * Number, title, subtitle (may be styled as subtitle, epigraph, POV/time/other note)
+    * drop caps
+    * Smallcaps for first phrase
   * front matter
   * back matter
 
